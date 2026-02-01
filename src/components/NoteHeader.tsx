@@ -50,7 +50,10 @@ export default function NoteHeader() {
                 <nav
                     className={`hidden md:flex pointer-events-auto items-center gap-2 bg-white/5 backdrop-blur-xl border border-white/5 px-2 py-1.5 rounded-full shadow-2xl transition-all duration-500 ${scrolled ? "bg-black/80 border-white/10" : ""}`}
                 >
-                    <NavLink href="https://www.drotes.com" label="Home" /> <div className="w-px h-3 bg-white/10" /> <NavLink href="https://www.drotes.com/shop" label="Shop" /> <div className="w-px h-3 bg-white/10" /> <NavLink href="https://www.patch.drotes.com" label="Drotes Patch" /> <div className="w-px h-3 bg-white/10" /> <NavLink href="#" label="Anec:dote" isActive /> </nav>
+                    <NavLink href="https://www.drotes.com" label="Home" /> <div className="w-px h-3 bg-white/10" /> 
+                    <NavLink href="https://www.drotes.com/shop" label="Shop" /> <div className="w-px h-3 bg-white/10" /> 
+                    <NavLink href="https://www.patch.drotes.com" label="Drotes Patch" /> <div className="w-px h-3 bg-white/10" /> 
+                    <NavLink href="https://www.anecdote.drotes.com" label="Anec:dote" isActive /> </nav>
 
 
                 {/* Mobile Menu Toggle */}
