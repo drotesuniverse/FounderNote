@@ -77,7 +77,7 @@ export default function NoteHeader() {
                     <div className="flex flex-col items-center gap-8 text-white">
                         <Link href="https://www.drotes.com" className="text-2xl font-bold">Home</Link>
                         <Link href="https://www.drotes.com/shop" className="text-2xl font-bold">Shop</Link>
-                        <Link href="https://www.anecdote.drotes.com" className="text-2xl font-bold">Anec:dote</Link>
+                        <Link href="https://anecdote.drotes.com" className="text-2xl font-bold">Anec:dote</Link>
                     </div>
                 </motion.div>
             )}
