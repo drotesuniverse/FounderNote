@@ -54,7 +54,7 @@ export default function NoteHeader() {
                     <div className="w-px h-3 bg-white/10" />
                     <NavLink href="https://www.drotes.com/shop" label="Shop" />
                     <div className="w-px h-3 bg-white/10" />
-                    <NavLink href="https://www.drotes.com/patch" label="Drotes Patch" />
+                    <NavLink href="https://www.patch.drotes.com" label="Drotes Patch" />
                     <div className="w-px h-3 bg-white/10" />
                     <NavLink href="#" label="Anec:dote" isActive />
                 </nav>
